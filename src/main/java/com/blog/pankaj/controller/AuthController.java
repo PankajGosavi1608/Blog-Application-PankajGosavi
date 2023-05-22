@@ -126,14 +126,13 @@ public class AuthController {
 	 * @return
 	 */
 
-	@GetMapping("/current-user/")
+	/*@GetMapping("/current-user/")
 	public ResponseEntity<UserDto> getUser(Principal principal) {
 
 		log.info("Starting request for get user activities");
 		com.blog.pankaj.entity.User user = this.userRepo.findByEmail(principal.getName()).get();
 
 		log.info("Complete request for get user activities");
-		return new ResponseEntity<UserDto>(this.mapper.map(user, UserDto.class), HttpStatus.OK);
+		return new ResponseEntity<UserDto>(this.mapper.map(user, UserDto.class), HttpStatus.OK);*/
 	}
 
-}
